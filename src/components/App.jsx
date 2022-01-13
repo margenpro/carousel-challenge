@@ -9,8 +9,9 @@ import Navbar from "./Navbar/Navbar";
 function App() {
   return (
     <Router>
-      <Navbar />
       <div className="container">
+        <Navbar />
+
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
