@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:radial-gradient(#5DA399,#FBF5F3);
+    width: 100%;
+    height: 100%;
+}
+.title{
+    color: #044B7F;
+}
+.title-container{
+    display: flex;
+    position: absolute;
+    top: 0%;
+}

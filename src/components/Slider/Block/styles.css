@@ -1,0 +1,6 @@
+.img-block{
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+}

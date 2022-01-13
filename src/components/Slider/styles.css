@@ -1,0 +1,34 @@
+.slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.nav-btn-next{
+    position: absolute;
+    background-color:aqua;
+    border-radius: 10px;
+    top: 50%;
+    right: 5px;
+    z-index: 10;
+}
+.nav-btn-prev{
+    position: absolute;
+    background-color:aqua;
+    border-radius: 10px;
+    top: 50%;
+    left: 5px;
+    z-index: 10;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide-active{
+    opacity: 1;
+    transition-duration: 1s;
+}
