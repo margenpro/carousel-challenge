@@ -1,5 +1,6 @@
 import React from "react";
 import NavItem from "./Navitem/Navitem";
+import "./styles.css";
 
 export default function Navbar() {
   return (
