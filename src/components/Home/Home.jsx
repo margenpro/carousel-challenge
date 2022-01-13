@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <div className="home">
       <h1>Welcome to my Carousel Project</h1>
+      <p>A built-in carousel gallery without using additional libraries.</p>
       <p>
-        This is an excercise provided by WS in wich a carousel was build Without
-        using any library at all.
+        Click <a href="/gallery">here</a> to go to the gallery
       </p>
-      <p>Please move to Gallery to see the functionallity</p>
+      <p>Also, feel free to comment in the contact form!</p>
     </div>
   );
 }

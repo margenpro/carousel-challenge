@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./styles.css";
 
 export default function Block({ imgUrl, title }) {

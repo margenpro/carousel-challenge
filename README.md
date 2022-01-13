@@ -31,3 +31,7 @@ npm start
 ```
 
 This will start and open the react app.
+
+## Heroku deployed version
+
+For deployed version please visit: https://carousel-challenge-ws.herokuapp.com/
