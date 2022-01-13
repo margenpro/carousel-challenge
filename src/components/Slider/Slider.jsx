@@ -68,15 +68,6 @@ export default function Slider() {
       ) : (
         <p>Loading...</p>
       )}
-      {/* {apiData ? apiData.map((data, index)=>{
-        return (
-          <div className={current === index ? 'slide-active' : 'slide'}>
-            {index === current && 
-            <Block imgUrl={data.images[0]} key={index}/>
-            }
-          </div>
-        )
-      }) : <p>Loading...</p>} */}
       <button
         className="nav-btn-next"
         onClick={handleNext}

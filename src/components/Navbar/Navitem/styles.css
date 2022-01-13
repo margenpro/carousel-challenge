@@ -1,0 +1,17 @@
+.header-link{
+    color: black;
+    padding: 0 5px;
+}
+.header-link-dot {
+    margin-top: -0.5rem;
+    opacity: 0;
+    transition: opacity 200ms linear;
+}
+.header-link:hover .header-link-dot{
+    opacity: 1;
+}
+
+.header-link-dot-active {
+    margin-top: -0.5rem;
+    display: block;
+}
